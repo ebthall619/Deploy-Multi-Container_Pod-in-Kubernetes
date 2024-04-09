@@ -1,6 +1,7 @@
 # Deploy-Multi-Container_Pod-in-Kubernetes
 Deploy-Multi-Container_Pod-in-Kubernetes
 Deploying a multi-container pod in Kubernetes involves creating a pod specification that contains multiple containers within it. This setup allows related containers to share resources and communicate with each other easily. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Create YAML File: Begin by creating a YAML file that defines your pod specification. This file will contain the details of your multi-container pod, including metadata, container specifications, and any other necessary configurations.
 Define Pod Metadata :Within the YAML file, specify metadata such as the name, labels, and namespace for your po
 Define Containers :Inside the YAML file, define the containers that will run within the pod. Each container should have its own specifications, including the image to use, command to run, ports to expose, environment variables, and any other necessary settings.
