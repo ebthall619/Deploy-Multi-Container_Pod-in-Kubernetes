@@ -4,7 +4,7 @@ To deploy a multi-container pod in Kubernetes:
 
     Create a YAML file with metadata and specifications for each container.
     Define containers with their images, commands, ports, and other settings.
-    Enable communication between containers if needed.
+    Enable communication between containers .
     Specify resource requirements for each container.
     Apply the YAML file using kubectl apply.
     Monitor the pod's status and logs.
